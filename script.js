@@ -203,7 +203,7 @@ const events = [
 
     venue: 'I&I Block · Ground Floor',
 
-    fee: 'Free Registration',
+    fee: '₹50 / person',
 
     status: 'walkin',
 
@@ -242,7 +242,7 @@ const events = [
 
     venue: 'I&I Block · Ground Floor',
 
-    fee: 'Free Registration',
+    fee: '₹50 / person',
 
     status: 'walkin',
 
@@ -452,7 +452,7 @@ const events = [
 
     venue: 'I&I Block · Ground Floor',
 
-    fee: 'Free Registration',
+    fee: '₹50 / person',
 
     status: 'walkin',
 
