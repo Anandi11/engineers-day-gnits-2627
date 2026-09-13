@@ -94,9 +94,6 @@ const events = [
 
     qr:
       'assets/qr/brain-blitz.png',
-
-    note:
-      'The supplied poster confirms 16 September and registration QR; time, venue and fee are not shown.'
   },
 
 
@@ -218,8 +215,6 @@ const events = [
       'Reflex'
     ],
 
-    note:
-      'No application QR or fee is shown on the supplied poster.'
   },
 
 
@@ -343,7 +338,7 @@ const events = [
       'assets/qr/csi.png',
 
     note:
-      'Student coordinators listed on poster: N. Siri and Azmath Zaha Shaik.'
+      'Student coordinators: N. Siri and Azmath Zaha Shaik.'
   },
 
 
@@ -387,7 +382,7 @@ const events = [
 
 
     note:
-      'The supplied QR is a payment QR, not an application form. Queries: +91 88975 55115 · +91 70756 12987.'
+      'The supplied QR is a payment QR, not an application form.'
   },
 
 
@@ -466,9 +461,6 @@ const events = [
       'Clues',
       'Guessing'
     ],
-
-    note:
-      'No application QR or fee is shown on the supplied poster.'
   },
 
 
@@ -509,7 +501,7 @@ const events = [
     qr: 'assets/qr/arthachain.png',
 
     note:
-      'Speaker: Mr. Sivram Shastri, Co-Founder, DAO. The original poster contains a registration QR, but its URL could not be reliably decoded.'
+      'Speaker: Mr. Sivram Shastri, Co-Founder, DAO.'
   },
 
 
@@ -781,7 +773,7 @@ const events = [
     qr: 'assets/qr/ctrl-think.jpeg',
 
     note:
-      'Three mini-games: Odd One Out — identify the odd element from engineering-related items; Spot the Difference — identify hidden differences in nearly identical technical/engineering images within a limited time; AI or Human? — identify whether images or artwork are AI-generated or human-created based on visual clues and inconsistencies. Exciting goodies will be awarded to winners, with as many winners as registrations allow.'
+      'Exciting goodies will be awarded to winners, with as many winners as registrations allow.'
   },
 
   /* =======================================================
@@ -803,11 +795,15 @@ const events = [
 
       venue: 'I&I Ground Floor',
 
-      fee: 'Free Registration',
+      fee: '50(for one game)- total 150(per team), ₹100(for both games)-300(per team)',
 
       status: 'walkin',
 
       poster: 'assets/posters/tech-meme.jpeg',
+
+      link: 'https://docs.google.com/forms/d/e/1FAIpQLSdF3j7cgL5egdGIry2rsj5IFo40hdt6xtMEv9KiU5PHya3qbw/viewform',
+      
+      qr: 'assets/qr/tech-meme.png',
 
       desc:
         'Participants are shown tech-related memes and identify the technical term or concept that best matches each meme.',
@@ -838,7 +834,7 @@ const events = [
 
     venue: 'I&I Block',
 
-    fee: '₹50 / person',
+    fee: '₹50(for one game)- ₹total 150(per team), ₹100(for both games)-300(per team)',
 
     status: 'registration',
 
@@ -855,7 +851,7 @@ const events = [
     ],
 
     link:
-      'https://docs.google.com/forms/d/e/1FAIpQLSdF3j7cgL5egdGIry2rsj5IFo40hdt6xtMEv9KiU5PHya3qbw/viewform?usp=publish-editor',
+      'https://docs.google.com/forms/d/e/1FAIpQLSdF3j7cgL5egdGIry2rsj5IFo40hdt6xtMEv9KiU5PHya3qbw/viewform',
 
     qr:
       'assets/qr/tech-tac-toe.png',
@@ -884,11 +880,13 @@ const events = [
 
     venue: 'I&I Block',
 
-    fee: 'Not stated',
+    fee: '₹50 / person',
 
     status: 'walkin',
 
-    poster: '',
+    poster: 'assets/posters/space-quest.jpeg',
+
+    qr: 'assets/qr/space-quest.png',
 
     desc:
       'A stall experience themed around the Space Quest concept.',
@@ -896,9 +894,6 @@ const events = [
     tags: [
       'Stall'
     ],
-
-    note:
-      'Poster and remaining event details to be added.'
   },
 
   /* =======================================================
@@ -918,7 +913,7 @@ const events = [
 
     time: '11:00 AM - 3:00 PM',
 
-    venue: 'I%I Block',
+    venue: 'I&I Block',
 
     fee: 'Not stated',
 
