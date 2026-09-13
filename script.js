@@ -600,6 +600,53 @@ const events = [
       'assets/qr/rangoli.png',
   },
 
+  /* =======================================================
+     21 — ORIGIN
+     ======================================================= */
+
+  {
+    id: 'origin',
+
+    club: 'CELESTE',
+
+    title: 'ORIGIN — An Ideathon on Space',
+
+    date: '16',
+
+    category: ['mega'],
+
+    time: '11:00 AM – 2:00 PM',
+
+    venue: 'IT Seminar Hall',
+
+    fee: '₹200 / team',
+
+    status: 'registration',
+
+    poster: 'assets/posters/origin.jpeg',
+
+    desc:
+      'A 36-hour research sprint where participants read a research paper, understand and analyse it, find gaps, develop an idea and pitch it at the Ideathon.',
+
+    tags: [
+      'Mega Event',
+      'Ideathon',
+      'Space',
+      'Research',
+      '3–4 members',
+      '₹200 / team'
+    ],
+
+    link:
+      'https://docs.google.com/forms/d/e/1FAIpQLSefN-9wqnpZR2bihh1ni-FsLRlW0EWGXMJlWobskiWxz3tk2A/viewform?usp=publish-editor',
+
+    qr:
+      'assets/qr/origin.png',
+
+    note:
+      'Research papers from IEEE are released on 14 September at 9:00 AM. Research window: 14 September, 9:00 AM to 15 September, 11:59 PM.'
+  },
+
 
   /* =======================================================
      15 — BATTLE OF ENGINEERS
@@ -648,59 +695,6 @@ const events = [
       'Round 1: Engineer’s Mind · 30 min / 30 points. Round 2: Engineer Under Pressure · 40–45 min / 40 points. Round 3: Engineer the Solution · 50–60 min / 50 points.'
   },
 
-
-  /* =======================================================
-     16 — BRAINY DOODLES + HEADPHONE CHALLENGE
-     ======================================================= */
-
-  {
-    id: 'brainy-doodles',
-
-    club: 'IEI',
-
-    title: 'Brainy Doodles + Headphone Challenge',
-
-    date: '16',
-
-    category: ['stall'],
-
-    time: '11:00 AM - 3:00 PM',
-
-    venue: 'I%I Block',
-
-    fee: 'Not stated',
-
-    status: 'walkin',
-
-    /*
-      ==============================================
-      ADD POSTER HERE
-      ==============================================
-
-      Example:
-
-      poster:
-        'assets/posters/brainy-doodles.jpg',
-
-      ==============================================
-    */
-
-    poster: '',
-
-    desc:
-      'One teammate dictates ten objects while the other quickly draws them. In the headphone challenge, one participant wears headphones while their teammate says tongue twisters and they try to guess what is being said.',
-
-    tags: [
-      'Stall',
-      'Drawing',
-      'Headphones'
-    ],
-
-    note:
-      'Poster, date, venue and fee to be added.'
-  },
-
-
   /* =======================================================
      17 — TECHNICAL DEBATE
      ======================================================= */
@@ -738,7 +732,7 @@ const events = [
   ],
   link: 'https://docs.google.com/forms/d/e/1FAIpQLSfiJshf8C7zyENk8AiSBVReAPGyq_A4EIdQ2d47w9djoQLQJw/viewform',
 
-  qr: 'assets/qr/technical-debate.jpeg',
+  qr: 'assets/qr/technical-debate.png',
 
   note:
     'E-certificates will be given to all participants. Certificates will be given to the winner and runner-up, and goodies will be provided to all participants.'
@@ -907,54 +901,56 @@ const events = [
       'Poster and remaining event details to be added.'
   },
 
-
   /* =======================================================
-     21 — ORIGIN
+     16 — BRAINY DOODLES + HEADPHONE CHALLENGE
      ======================================================= */
 
   {
-    id: 'origin',
+    id: 'brainy-doodles',
 
-    club: 'CELESTE',
+    club: 'IEI',
 
-    title: 'ORIGIN — An Ideathon on Space',
+    title: 'Brainy Doodles + Headphone Challenge',
 
     date: '16',
 
-    category: ['mega'],
+    category: ['stall'],
 
-    time: '11:00 AM – 2:00 PM',
+    time: '11:00 AM - 3:00 PM',
 
-    venue: 'IT Seminar Hall',
+    venue: 'I%I Block',
 
-    fee: '₹200 / team',
+    fee: 'Not stated',
 
-    status: 'registration',
+    status: 'walkin',
 
-    poster: 'assets/posters/origin.jpeg',
+    /*
+      ==============================================
+      ADD POSTER HERE
+      ==============================================
+
+      Example:
+
+      poster:
+        'assets/posters/brainy-doodles.jpg',
+
+      ==============================================
+    */
+
+    poster: '',
 
     desc:
-      'A 36-hour research sprint where participants read a research paper, understand and analyse it, find gaps, develop an idea and pitch it at the Ideathon.',
+      'One teammate dictates ten objects while the other quickly draws them. In the headphone challenge, one participant wears headphones while their teammate says tongue twisters and they try to guess what is being said.',
 
     tags: [
-      'Mega Event',
-      'Ideathon',
-      'Space',
-      'Research',
-      '3–4 members',
-      '₹200 / team'
+      'Stall',
+      'Drawing',
+      'Headphones'
     ],
 
-    link:
-      'https://docs.google.com/forms/d/e/1FAIpQLSefN-9wqnpZR2bihh1ni-FsLRlW0EWGXMJlWobskiWxz3tk2A/viewform?usp=publish-editor',
-
-    qr:
-      'assets/qr/origin.png',
-
     note:
-      'Research papers from IEEE are released on 14 September at 9:00 AM. Research window: 14 September, 9:00 AM to 15 September, 11:59 PM.'
+      'Poster, date, venue and fee to be added.'
   }
-
 ];
 
 
