@@ -45,7 +45,7 @@ const events = [
     ],
 
     link:
-      'https://forms.gle/2CDpC2NCNHGq2G69',
+      'https://forms.gle/2CDpC2NCNHGq2G699',
 
     qr:
       'assets/qr/crisis-hack.png',
@@ -90,7 +90,7 @@ const events = [
     ],
 
     link:
-      'https://q.me-qr.com/xycr9m6d',
+      'https://docs.google.com/forms/d/e/1FAIpQLScswmDew8AzkGPTL1AHdeJ52vz5fYiyZWj4iHVGH5xHJqYL4w/viewform',
 
     qr:
       'assets/qr/brain-blitz.png',
@@ -136,7 +136,7 @@ const events = [
     ],
 
     link:
-      'https://qrto.org/QzlCg',
+      'https://docs.google.com/forms/d/e/1FAIpQLScVr6fOfsGMb1COdKAj19lmiflN97pohE2ChIfchIwx7s4wMg/viewform',
 
     qr:
       'assets/qr/prompt-combat.png'
