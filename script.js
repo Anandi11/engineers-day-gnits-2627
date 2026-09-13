@@ -45,7 +45,7 @@ const events = [
     ],
 
     link:
-      'https://forms.gle/2CDpC2NCNHGq2G699',
+      'https://forms.gle/2CDpC2NCNHGq2G69',
 
     qr:
       'assets/qr/crisis-hack.png',
@@ -136,7 +136,7 @@ const events = [
     ],
 
     link:
-      'https://qrto.org/QzlCgT',
+      'https://qrto.org/QzlCg',
 
     qr:
       'assets/qr/prompt-combat.png'
@@ -177,7 +177,7 @@ const events = [
     ],
 
     link:
-      'https://q.me-qr.com/m50n7851',
+      'https://forms.gle/3mo4ch7S6F5GZMWX6',
 
     qr:
       'assets/qr/acm.png'
