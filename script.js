@@ -720,7 +720,7 @@ const events = [
 
   venue: 'Main Seminar Hall',
 
-  fee: 'Not stated',
+  fee: '₹50/ per head',
 
   status: 'registration',
 
@@ -736,9 +736,9 @@ const events = [
     'Ideas + Logic',
     'Open to students'
   ],
-  link: 'https://forms.gle/QhnnMN13EJ4wGynU9',
+  link: 'https://docs.google.com/forms/d/e/1FAIpQLSfiJshf8C7zyENk8AiSBVReAPGyq_A4EIdQ2d47w9djoQLQJw/viewform',
 
-  qr: '',
+  qr: 'assets/qr/technical-debate.jpeg',
 
   note:
     'E-certificates will be given to all participants. Certificates will be given to the winner and runner-up, and goodies will be provided to all participants.'
