@@ -1,0 +1,640 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta
+    name="theme-color"
+    content="#060d16"
+  />
+
+  <meta
+    name="description"
+    content="Engineers' Day 2026 at GNITS — discover technical club events, mega events, stalls, registrations, fees and venues for September 15–16."
+  />
+
+  <title>ENGINEERS' DAY // GNITS 2026</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <div class="noise"></div>
+  <div class="gridfield" aria-hidden="true"></div>
+
+  <!-- ============================= -->
+  <!-- HEADER -->
+  <!-- ============================= -->
+
+  <header class="topbar">
+
+    <a class="brand" href="#top">
+      <div class="brand-mark">
+        <img src="assets/posters/gnits-logo.png" alt="GNITS Logo">
+      </div>
+      <span class="brand-text">
+        GNITS
+        <b>ENGINEERS' DAY</b>
+      </span>
+    </a>
+
+    <nav aria-label="Main navigation">
+      <a href="#events">Events</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#register">Register</a>
+    </nav>
+
+    <div class="sysline" aria-hidden="true">
+      <i class="led"></i>
+      REG&nbsp;OPEN
+    </div>
+
+  </header>
+
+
+  <main id="top">
+
+    <!-- ============================= -->
+    <!-- HERO -->
+    <!-- ============================= -->
+
+    <section class="hero">
+
+      <svg
+        class="pcb-bg"
+        viewBox="0 0 1440 760"
+        preserveAspectRatio="xMidYMid slice"
+        aria-hidden="true"
+      >
+
+        <g class="pcb-traces">
+
+          <path class="tr" d="M0,120 H260 V60 H520" />
+          <path class="tr" d="M0,420 H180 V520 H480 V600" />
+
+          <path
+            class="tr"
+            d="M1440,90 H1120 V210 H900"
+          />
+
+          <path
+            class="tr"
+            d="M1440,300 H1240 V150 H1000"
+          />
+
+          <path
+            class="tr"
+            d="M1440,560 H1180 V480 H860 V640"
+          />
+
+          <path
+            class="tr"
+            d="M60,680 V560 H340"
+          />
+
+          <path
+            class="tr tr-b"
+            d="M1440,650 H1300 V700 H1060"
+          />
+
+        </g>
+
+        <g class="pcb-nodes">
+          <circle cx="520" cy="60" r="4" />
+          <circle cx="260" cy="120" r="4" />
+          <circle cx="480" cy="520" r="4" />
+          <circle cx="900" cy="210" r="4" />
+          <circle cx="1000" cy="150" r="4" />
+          <circle cx="860" cy="640" r="4" />
+          <circle cx="340" cy="680" r="4" />
+          <circle cx="1060" cy="700" r="4" />
+        </g>
+
+      </svg>
+
+
+      <div class="hero-copy">
+
+        <p class="eyebrow">
+          G. Narayanamma Institute of Technology &amp; Science
+        </p>
+
+        <h1>
+          <span>Engineers'</span>
+          <strong>Day</strong>
+          <i>rev. 2026</i>
+        </h1>
+
+        <p class="hero-lede">
+          Two days. A campus full of ideas, challenges,
+          builds, games and brain-bending experiences.
+        </p>
+
+        <div class="hero-meta">
+          <span>15–16 SEP 2026</span>
+          <span class="slash">/</span>
+          <span>GNITS · Hyderabad</span>
+        </div>
+
+        <div class="hero-actions">
+
+          <a
+            class="btn primary"
+            href="#events"
+          >
+            Explore events
+            <span>↘</span>
+          </a>
+
+          <a
+            class="btn ghost"
+            href="#register"
+          >
+            How to register
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- HERO COUNTDOWN -->
+
+      <div
+        class="hero-drawing"
+        aria-hidden="true"
+      >
+
+        <div class="scope">
+
+          <div class="scope-head">
+
+            <span>
+              SYS.CLOCK
+            </span>
+
+            <span class="scope-live">
+              <i class="led"></i>
+              LIVE
+            </span>
+
+          </div>
+
+
+          <div
+            id="countdown"
+            class="countdown"
+          >
+
+            <div class="cd-unit">
+              <b id="cd-d">00</b>
+              <span>DAYS</span>
+            </div>
+
+            <div class="cd-unit">
+              <b id="cd-h">00</b>
+              <span>HRS</span>
+            </div>
+
+            <div class="cd-unit">
+              <b id="cd-m">00</b>
+              <span>MIN</span>
+            </div>
+
+            <div class="cd-unit">
+              <b id="cd-s">00</b>
+              <span>SEC</span>
+            </div>
+
+          </div>
+
+
+          <p
+            class="cd-caption"
+            id="cd-caption"
+          >
+            Countdown to check-in · 15 Sep, 9:00 AM
+          </p>
+
+        </div>
+
+
+        <div class="chip">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+
+          <b>
+            ED<br>
+            26
+          </b>
+        </div>
+
+
+        <small class="coord">
+          17.4239° N · 78.4738° E
+        </small>
+
+      </div>
+
+    </section>
+
+
+    <!-- ============================= -->
+    <!-- TICKER -->
+    <!-- ============================= -->
+
+    <section
+      class="ticker"
+      aria-label="Event highlights"
+    >
+
+      <div class="ticker-track">
+
+        <span>
+          <i class="led sm"></i>
+          TECHNICAL EVENTS
+        </span>
+
+        <span>
+          <i class="led sm"></i>
+          STUDENT CLUBS
+        </span>
+
+        <span>
+          <i class="led sm"></i>
+          LIVE CHALLENGES
+        </span>
+
+        <span>
+          <i class="led sm"></i>
+          MEGA EVENTS
+        </span>
+
+        <span>
+          <i class="led sm"></i>
+          STALLS &amp; GAMES
+        </span>
+
+        <span>
+          <i class="led sm"></i>
+          REGISTRATION OPEN
+        </span>
+
+
+        <!-- repeated for continuous ticker -->
+
+        <span>
+          <i class="led sm"></i>
+          TECHNICAL EVENTS
+        </span>
+
+        <span>
+          <i class="led sm"></i>
+          STUDENT CLUBS
+        </span>
+
+        <span>
+          <i class="led sm"></i>
+          LIVE CHALLENGES
+        </span>
+
+        <span>
+          <i class="led sm"></i>
+          MEGA EVENTS
+        </span>
+
+        <span>
+          <i class="led sm"></i>
+          STALLS &amp; GAMES
+        </span>
+
+        <span>
+          <i class="led sm"></i>
+          REGISTRATION OPEN
+        </span>
+
+      </div>
+
+    </section>
+
+
+    <!-- ============================= -->
+    <!-- INTRO -->
+    <!-- ============================= -->
+
+    <section
+      class="intro"
+      id="events"
+    >
+
+      <div>
+
+        <p class="section-kicker">
+          Fig. 01 — The line-up
+        </p>
+
+        <h2>
+          Pick your
+          <br>
+          <em>challenge.</em>
+        </h2>
+
+      </div>
+
+
+      <div class="intro-copy">
+
+        <p>
+          From blockchain and AI to puzzles, coding,
+          design, electronics, research, debate and
+          pure chaos — the technical clubs of GNITS
+          are bringing their Engineers' Day experiences
+          to life.
+        </p>
+
+
+        <div class="stats">
+
+          <div>
+            <b data-count="22">0</b>
+            <span>Events / stalls</span>
+          </div>
+
+          <div>
+            <b data-count="2">0</b>
+            <span>Days on campus</span>
+          </div>
+
+          <div>
+            <b
+              data-count="50"
+              data-prefix="₹"
+              data-suffix="+"
+            >
+              0
+            </b>
+
+            <span>Starting fees</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ============================= -->
+    <!-- FILTERS + SEARCH -->
+    <!-- ============================= -->
+
+    <section class="controls">
+
+      <div
+        class="filters"
+        role="tablist"
+        aria-label="Event filters"
+      >
+
+        <button
+          class="filter active"
+          data-filter="all"
+        >
+          ALL
+        </button>
+
+        <button
+          class="filter"
+          data-filter="15"
+        >
+          15 SEP
+        </button>
+
+        <button
+          class="filter"
+          data-filter="16"
+        >
+          16 SEP
+        </button>
+
+        <button
+          class="filter"
+          data-filter="mega"
+        >
+          MEGA EVENTS
+        </button>
+
+        <button
+          class="filter"
+          data-filter="stall"
+        >
+          STALLS
+        </button>
+
+      </div>
+
+
+      <label class="search">
+
+        <span>⌕</span>
+
+        <input
+          id="search"
+          type="search"
+          placeholder="Search events, clubs, topics…"
+          aria-label="Search events"
+        />
+
+      </label>
+
+    </section>
+
+
+    <!-- ============================= -->
+    <!-- EVENT GRID -->
+    <!-- JS POPULATES THIS -->
+    <!-- ============================= -->
+
+    <section
+      class="event-grid"
+      id="eventGrid"
+    ></section>
+
+
+    <!-- ============================= -->
+    <!-- SCHEDULE -->
+    <!-- ============================= -->
+
+    <section
+      class="schedule"
+      id="schedule"
+    >
+
+      <div class="section-head">
+
+        <div>
+
+          <p class="section-kicker">
+            Fig. 02 — Campus flow
+          </p>
+
+          <h2>
+            Two days.
+            <br>
+            <em>One packed map.</em>
+          </h2>
+
+        </div>
+
+
+        <p>
+          Use the schedule to plan your route.
+          Where the source information does not state
+          a time, fee, venue or date, we mark it clearly
+          rather than inventing it.
+        </p>
+
+      </div>
+
+
+      <div
+        class="timeline"
+        id="timeline"
+      ></div>
+
+    </section>
+
+
+    <!-- ============================= -->
+    <!-- REGISTRATION -->
+    <!-- ============================= -->
+
+    <section
+      class="register"
+      id="register"
+    >
+
+      <div class="register-card">
+
+        <div>
+
+          <p class="section-kicker">
+            Fig. 03 — Ready?
+          </p>
+
+          <h2>
+            Register.
+            <br>
+            <em>Show up.</em>
+            <br>
+            Have fun.
+          </h2>
+
+        </div>
+
+
+        <div class="register-copy">
+
+          <p>
+            Open an event card to view complete details,
+            scan its registration QR, use the registration
+            button, or check payment information where
+            applicable. Some experiences are walk-in
+            activities.
+          </p>
+
+
+          <div class="legend">
+
+            <span>
+              <i class="dot cyan"></i>
+              Registration QR available
+            </span>
+
+            <span>
+              <i class="dot orange"></i>
+              Walk-in / no form shown
+            </span>
+
+            <span>
+              <i class="dot pink"></i>
+              Details to be confirmed
+            </span>
+
+          </div>
+
+
+          <a
+            class="btn primary"
+            href="#events"
+          >
+            Browse the line-up ↗
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ============================= -->
+  <!-- FOOTER -->
+  <!-- ============================= -->
+
+  <footer>
+
+    <div>
+      ENGINEERS' DAY // GNITS
+    </div>
+
+    <div>
+      15—16.09.2026 · Built for the campus
+    </div>
+
+  </footer>
+
+
+  <!-- ============================= -->
+  <!-- EVENT MODAL -->
+  <!-- ============================= -->
+
+  <dialog id="eventModal">
+
+    <button
+      class="modal-close"
+      aria-label="Close"
+    >
+      ×
+    </button>
+
+    <div id="modalContent"></div>
+
+  </dialog>
+
+
+  <!-- Main JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
