@@ -142,9 +142,50 @@ const events = [
       'assets/qr/prompt-combat.png'
   },
 
+   /* =======================================================
+     4 — CODE BREAK 180
+     ======================================================= */
+
+  {
+    id: 'codebreak',
+
+    club: 'ACM-W SIGAI',
+
+    title: 'Code Break: 180',
+
+    date: '16',
+
+    category: ['stall'],
+
+    time: '11:00 AM - 3:00 PM',
+
+    venue: 'I&I CELL',
+
+    fee: '₹50',
+
+    status: 'registration',
+
+    poster: 'assets/posters/code-break-180.jpg',
+
+    desc:
+      'Three timed rounds involving wire matching, decoding and password solving, with each round being eliminatory.',
+
+    tags: [
+      'Stall',
+      '3 rounds',
+      '180 sec'
+    ],
+
+    link:
+      'https://q.me-qr.com/m50n7851',
+
+    qr:
+      'assets/qr/acm.png'
+  },
+
 
   /* =======================================================
-     04 — TECHNICAL TWISTER
+     5 — TECHNICAL TWISTER
      ======================================================= */
 
   {
@@ -183,7 +224,7 @@ const events = [
 
 
   /* =======================================================
-     05 — 3 SECOND CHAOS
+     06 — 3 SECOND CHAOS
      ======================================================= */
 
   {
@@ -220,7 +261,7 @@ const events = [
 
 
   /* =======================================================
-     06 — TECH ARENA
+     07 — TECH ARENA
      ======================================================= */
 
   {
@@ -262,7 +303,7 @@ const events = [
 
 
   /* =======================================================
-     07 — CHAOS & CLUES
+     08 — CHAOS & CLUES
      ======================================================= */
 
   {
@@ -307,7 +348,7 @@ const events = [
 
 
   /* =======================================================
-     08 — SPIN THE ERUDITES WHEEL
+     09 — SPIN THE ERUDITES WHEEL
      ======================================================= */
 
   {
@@ -351,7 +392,7 @@ const events = [
 
 
   /* =======================================================
-     09 — LOGO LOCK
+     10 — LOGO LOCK
      ======================================================= */
 
   {
@@ -389,48 +430,6 @@ const events = [
 
     qr:
       'assets/qr/logo-lock.png'
-  },
-
-
-  /* =======================================================
-     10 — CODE BREAK 180
-     ======================================================= */
-
-  {
-    id: 'codebreak',
-
-    club: 'ACM-W SIGAI',
-
-    title: 'Code Break: 180',
-
-    date: '16',
-
-    category: ['stall'],
-
-    time: '11:00 AM - 3:00 PM',
-
-    venue: 'I&I CELL',
-
-    fee: '₹50',
-
-    status: 'registration',
-
-    poster: 'assets/posters/code-break-180.jpg',
-
-    desc:
-      'Three timed rounds involving wire matching, decoding and password solving, with each round being eliminatory.',
-
-    tags: [
-      'Stall',
-      '3 rounds',
-      '180 sec'
-    ],
-
-    link:
-      'https://q.me-qr.com/m50n7851',
-
-    qr:
-      'assets/qr/acm.png'
   },
 
 
