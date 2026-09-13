@@ -593,7 +593,7 @@ const events = [
   },
 
   /* =======================================================
-     21 — ORIGIN
+     15— ORIGIN
      ======================================================= */
 
   {
@@ -641,7 +641,7 @@ const events = [
 
 
   /* =======================================================
-     15 — BATTLE OF ENGINEERS
+     16 — BATTLE OF ENGINEERS
      ======================================================= */
 
   {
@@ -731,7 +731,7 @@ const events = [
 },
 
   /* =======================================================
-    CTRL + THINK
+    18 — CTRL + THINK
   ======================================================= */
 
   {
@@ -777,7 +777,7 @@ const events = [
   },
 
   /* =======================================================
-     18 — MEME CHALLENGE
+     19 — MEME CHALLENGE
      ======================================================= */
 
     {
@@ -816,7 +816,7 @@ const events = [
     },
 
     /* =======================================================
-      19 — TECH TAC TOE
+      20 — TECH TAC TOE
       ======================================================= */
 
     {
@@ -862,7 +862,7 @@ const events = [
 
 
   /* =======================================================
-     20 — SPACE QUEST
+     21 — SPACE QUEST
      ======================================================= */
 
   {
@@ -889,7 +889,7 @@ const events = [
     qr: 'assets/qr/space-quest.png',
 
     desc:
-      'A stall experience themed around the Space Quest concept.',
+      'Games include: Wrong Orbit • Mission Control – Dont Crash the Rocket • Cosmic Pictionary • What Celestial Body Am I?',
 
     tags: [
       'Stall'
@@ -897,7 +897,7 @@ const events = [
   },
 
   /* =======================================================
-     16 — BRAINY DOODLES + HEADPHONE CHALLENGE
+     22 — BRAINY DOODLES + HEADPHONE CHALLENGE
      ======================================================= */
 
   {
@@ -915,36 +915,19 @@ const events = [
 
     venue: 'I&I Block',
 
-    fee: 'Not stated',
+    fee: '₹30 for 2 games / ₹40 for 3 games',
 
     status: 'walkin',
 
-    /*
-      ==============================================
-      ADD POSTER HERE
-      ==============================================
-
-      Example:
-
-      poster:
-        'assets/posters/brainy-doodles.jpg',
-
-      ==============================================
-    */
-
-    poster: '',
+    poster: 'assets/posters/iei.jpeg',
 
     desc:
-      'One teammate dictates ten objects while the other quickly draws them. In the headphone challenge, one participant wears headphones while their teammate says tongue twisters and they try to guess what is being said.',
-
+      '3 games: Headphones Game • Drawing Challenge • Feel It and Guess',
     tags: [
       'Stall',
       'Drawing',
       'Headphones'
     ],
-
-    note:
-      'Poster, date, venue and fee to be added.'
   }
 ];
 
