@@ -165,7 +165,7 @@ const events = [
 
     status: 'registration',
 
-    poster: 'assets/posters/code-break-180.jpg',
+    poster: 'assets/posters/code-break-180.jpeg',
 
     desc:
       'Three timed rounds involving wire matching, decoding and password solving, with each round being eliminatory.',
@@ -180,7 +180,7 @@ const events = [
       'https://forms.gle/3mo4ch7S6F5GZMWX6',
 
     qr:
-      'assets/qr/acm.png'
+      'assets/qr/sigai.jpeg'
   },
 
 
