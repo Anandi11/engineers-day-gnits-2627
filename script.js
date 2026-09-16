@@ -27,7 +27,7 @@ const events = [
 
     time: '9:00 AM onwards',
 
-    venue: 'Not stated',
+    venue: 'CSE Block LH-8 Classroom',
 
     fee: '₹50 / member',
 
@@ -609,7 +609,7 @@ const events = [
 
     time: '11:00 AM – 2:00 PM',
 
-    venue: 'IT Seminar Hall',
+    venue: 'CL 11&12 Admin Block',
 
     fee: '₹200 / team',
 
